@@ -1,0 +1,30 @@
+.servicesWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+}
+
+.icon{  
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .servicesWrapper{
+        margin-top:400px ;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .service{
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+.header{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 7rem;
+    align-items: center;
+}
+
+.headerLeft p{
+    margin: 0.8rem 0 2.5rem;
+    font-size: 1.1rem;
+}
+
+.headerCta{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.headerRight{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card1{
+    border-radius: 0 5rem;
+    overflow: hidden;
+    animation: identifier 10s linear alternate infinite;
+}
+
+.card2{
+    border-radius: 5rem 0;
+    overflow: hidden;
+    animation: identifier 20s linear alternate infinite;
+}
+.card3{
+    border-radius: 5rem 0;
+    overflow: hidden;
+    animation: identifier 25s linear alternate infinite;
+}
+.card4{
+    border-radius: 0 5rem;
+    overflow: hidden;
+    animation: identifier 15s linear alternate infinite;
+}
+
+@keyframes identifier {
+    0%{
+        filter: saturate(1) opacity(1) blur(0);
+    }
+    20%{
+        filter: saturate(0) opacity(1) blur(0);
+    }
+    50%{
+        filter: saturate(0) opacity(0) blur(10px);
+    }
+    100%{
+        filter: saturate(1) opacity(1) blur(0);
+    }
+}
+
+@media screen and (max-width:600px){
+    .header{
+        min-height: fit-content;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        padding: 7rem 0;
+    }
+
+    .headerLeft p{
+        margin-bottom: 1.8rem;
+    }
+    
+}
