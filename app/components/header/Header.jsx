@@ -20,8 +20,8 @@ const Header = () => {
             </p>
             <div className={styles.headerCta}>
               
-                <a href="https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs" className='btn'>Resume</a>
-                <a href="/" className='btn primary'>Certificates</a>
+                <a href="https://drive.google.com/file/d/1qgqhG8GtNomgJsFeree1d8sCoHB5E8GK/view?usp=drive_link" target='blank' className='btn'>Resume</a>
+                <a href="https://drive.google.com/drive/folders/1YGhX55V45XiVkma8qxqFe0LdvvIux4zn" target='blank' className='btn primary'>Certificates</a>
                 
             </div>
         </div>
