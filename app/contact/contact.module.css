@@ -1,0 +1,31 @@
+.contactWrapper{
+    display: flex;
+    margin-inline:auto;
+    width: fit-content;
+    gap: 2.5rem;
+    opacity: 0;
+    animation: identifier 1s ease-in forwards;
+}
+
+@keyframes identifier{
+    to{
+        opacity: 1;
+    }
+}
+
+.contactWrapper a{
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width:600px){
+    .contactWrapper{
+        margin-top: 6rem;
+        gap: 1.5rem;
+    }
+}

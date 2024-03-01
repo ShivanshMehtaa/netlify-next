@@ -1,0 +1,27 @@
+.sectionHeader{
+    margin: 4rem 0 7rem;
+    padding: 3rem 0;
+    text-align: center;
+    background: var(--color-gray-0);
+}
+
+.sectionHeader h3{
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.sectionHeader p{
+    max-width: 52rem;
+    margin-inline: auto;
+}
+
+@media screen and (max-width:600px){
+    .sectionHeader {
+        margin-bottom:2rem;
+    }  
+    
+    .sectionHeader p{
+        max-width: var(--container-width-md);
+    }
+
+}

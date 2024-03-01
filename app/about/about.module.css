@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10rem;
+}
+
+.image{
+    height: 35rem;
+    overflow: hidden;
+    object-fit: fill;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    animation: identifier 2s ease forwards;
+}
+
+.aboutCta{
+    display: inline-block;
+    margin-top:2.5rem ;
+}
+
+.aboutContent p{
+    margin-top: 0.8rem;
+}
+
+@keyframes identifier {
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+}

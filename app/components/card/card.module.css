@@ -1,0 +1,10 @@
+.card{
+    background: var(--color-gray-0);
+    backdrop-filter: blur(10px);
+    transition: var(--transition);
+}
+
+.card:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.1);
+}

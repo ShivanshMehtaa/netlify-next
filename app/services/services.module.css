@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem,1fr));
+    gap: 3rem;
+}
+
+.service{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem 3rem 2rem;
+    opacity: 0;
+    animation: identifier 1s ease-in forwards;
+}
+
+@keyframes identifier {
+    to{
+        opacity: 1;
+    }
+}
+
+.service span{
+    background: var(--color-primary);
+    width: 3rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-gray-0);
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.service h5{
+    margin: 2.5rem 0 0.8rem;
+}
+
+.service p{
+    opacity: 0.85;
+} 
+
+@media screen and (max-width:600px){
+    .container{
+        gap: 1.2rem;
+    } 
+}
