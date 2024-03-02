@@ -1,13 +1,15 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import styles from "./navbar.module.css"
 import Link from 'next/link'
 
 import {FaBars} from "react-icons/fa6";
 import { AiOutlineClose } from "react-icons/ai";
-import { GOMoon, GoMoon, GoSün} from "react-icons/go";
+import { GoMoon, GoSun} from "react-icons/go";
 import { usePathname } from 'next/navigation';
+
+import { ThemeContext } from '@/app/context/themeContext';
 
 const data=[
     {id:1, link:'/',caption:'Home'},
@@ -20,12 +22,22 @@ const data=[
 const Navbar = () => {
     const[navOpen,setNavOpen] = useState(false);
     const pathname = usePathname();
+    const {theme,setTheme} = useContext(ThemeContext);
 
     useEffect(()=>{
         if(window.innerWidth >600){
             setNavOpen(true);
         }
     },[navOpen])
+
+    const changeThemeHandler=()=>{
+        if(theme==='light'){
+            setTheme('dark')
+        }
+        else{
+            setTheme('light')
+        }
+    }
 
     const closenavHandler = ()=>{
         if(window.innerWidth <=600){
@@ -50,8 +62,11 @@ const Navbar = () => {
                 }
             </ul>}
             <div className={styles.navBtns}>
-                <button className={styles.themeBtn}>
-                    <GoMoon/>
+                <button className={styles.themeBtn} onClick={changeThemeHandler}>
+                   {
+                    theme==='light' ? <GoMoon/> : <GoSun/>
+                   }
+                    
                 </button>
                 <button className={styles.navBtn}
                 onClick={()=> setNavOpen(!navOpen)}>

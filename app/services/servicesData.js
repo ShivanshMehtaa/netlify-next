@@ -5,7 +5,7 @@ import { FaLaptopCode } from "react-icons/fa6";
 
 export const data =[
     {
-        id:1,icon:<MdDesignServices/>,title:"Graphic Design",
+        id:1,icon:<MdDesignServices/>,title:"Graphic Designing",
         description:"I mainly use Canva for designing illustrations for various different companies that i have worked in."
     },
     {

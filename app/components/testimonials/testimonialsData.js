@@ -1,5 +1,5 @@
-import Exp1 from "../../assets/Exp1.jpg";
-import Exp2 from "../../assets/Exp2.jpg";
+import Exp1 from "../../assets/Exp1.png";
+import Exp2 from "../../assets/Exp2.png";
 
 export const data = [
     {
