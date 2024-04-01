@@ -9,15 +9,15 @@ export const data =[
         description:"I mainly use Canva for designing illustrations for various different companies that i have worked in."
     },
     {
-        id:2,icon:<FaCode/>,title:"Frontend Development",
-        description:"I mainly use React, HTML, CSS and JS for building the frontend of my applications for various different companies that i have worked in."
-    },
-    {
-        id:3,icon:<FaServer/>,title:"Backend Development",
-        description:"I mainly use NodeJS and its supporting libraries for building the backend for various different companies that i have worked in."
-    },
-    {
-        id:4,icon:<FaLaptopCode/>,title:"FullStack Development",
+        id:2,icon:<FaCode/>,title:"FullStack Development",
         description:"I use NextJs and MERN stack to create fullstack applications for the various different companies that i have worked in."
+    },
+    {
+        id:3,icon:<FaServer/>,title:"Machine Learning",
+        description:"Can use different pre defined machine learning models to overcome any business problem, with the ability of creating my own neural network if suitable results are not met"
+    },
+    {
+        id:4,icon:<FaLaptopCode/>,title:"Project Management",
+        description:"Had led a project onve while my second internship, so I am aware with the responsibilities that are to be taken care of during the project lifecycle"
     }
 ]
