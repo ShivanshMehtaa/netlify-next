@@ -14,10 +14,10 @@ const page = () => {
         </article>
         <article className={styles.aboutContent}>
           <h4>My Name is Shivansh Mehta</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus, quae explicabo labore tempore, beatae qui, minima amet eius in quia! Iste accusamus cumque nesciunt.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure est incidunt, sed, labore accusamus tempora non ex aliquid excepturi corporis aliquam, autem corrupti asperiores quisquam.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, saepe eum. Ex dolores ratione temporibus. Dicta corrupti exercitationem id illum. Architecto necessitatibus fugiat ipsam saepe!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam pariatur inventore, sapiente quidem vitae aliquam dolorum veritatis ad odit magnam reprehenderit ipsa. Praesentium, culpa!</p>
+          <p>Aspiring web developer with knowledge of various development technologies. I typically use React and Next JS in the client, Node JS, Python and its REST frameworks on the server, and use HTTP for communication between the client and server. Currently, I focus on pursuing machine learning with the help of Python and its various libraries like TensorFlow, OpenCV, Pandas, Matplotlib, Numpy, etc.</p>
+          <p>Achievements in DSA include: 200+ questions in <strong>Leetcode</strong> and <strong>code360</strong> platform, with various achievement like achiver and intermediate in the code360 pplatform in various different topics including HashMaps, Tries, BST, Binary Trees, Linked List, Recursion, etc</p>
+          <p>On the look for internship/ part time job opportunities that can help me upskill and also provide me with the experience of the corporate world</p>
+          
 
           <a href="../assets/cv.pdf" className={`btn primary ${styles.aboutCta}`}download rel="noopener noreferrer">Download Resume</a>
         </article>
