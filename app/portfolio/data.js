@@ -83,24 +83,66 @@ export const data=[
         demo:'https://github.com/ShivanshMehtaa/Sentiment-Analysis',
         github:'https://github.com/ShivanshMehtaa/Sentiment-Analysis',
     },
-    {
-        id:10,
-        category:'ML',
-        image:Image1,
-        title:'Mevie Recommendation System',
-        description:'A movie recommendation system that gives you the list of top 5 most matcheed movies based on the movie you liked',
-        demo:'https://github.com/ShivanshMehtaa/Movie-Prediction-System',
-        github:'https://github.com/ShivanshMehtaa/Movie-Prediction-System',
-    },
-    {
-        id:11,
-        category:'APP',
-        image:Image1,
-        title:'News App',
-        description:'A simple application that fetches data from the news API and displays it on the frontend made using React Native, however there is also a search query provides where you can search for a category or a particular article',
-        demo:'https://github.com/ShivanshMehtaa/Movie-Prediction-System',
-        github:'https://github.com/ShivanshMehtaa/Movie-Prediction-System',
-    },
+     {
+    id: 10,
+    category: "ML",
+    image: Image1,
+    title: "Mevie Recommendation System(Flask)",
+    description:
+      "A movie recommendation system that gives you the list of top 5 most matcheed movies based on the movie you liked",
+    demo: "https://github.com/ShivanshMehtaa/Movie-Prediction-System",
+    github: "https://github.com/ShivanshMehtaa/Movie-Prediction-System",
+  },
+  {
+    id: 11,
+    category: "APP",
+    image: Image1,
+    title: "News App(React Native)",
+    description:
+      "A simple application that fetches data from the news API and displays it on the frontend made using React Native, however there is also a search query provides where you can search for a category or a particular article",
+    demo: "https://github.com/ShivanshMehtaa/Movie-Prediction-System",
+    github: "https://github.com/ShivanshMehtaa/Movie-Prediction-System",
+  },
+  {
+    id: 12,
+    category: "APP",
+    image: Image1,
+    title: "Social Media App(React Native)",
+    description:
+      "A social media app that uses appwrite as the backend and database and React Native as the frontend. The app has the functionality of posting videos and also has the functionality of liking and bookmarking posts",
+    demo: "https://github.com/ShivanshMehtaa/Aora_JSM",
+    github: "https://github.com/ShivanshMehtaa/Aora_JSM",
+  },
+  {
+    id: 13,
+    category: "APP",
+    image: Image1,
+    title: "FitDex(React Native)",
+    description:
+      "FitDex is a fitness application that uses React Native in the frontend and uses ExerciseDB as the API for the exercises. In this app you can see the exercise its correct form the targe muscles and the secondary muscles",
+    demo: "https://github.com/ShivanshMehtaa/FitDex",
+    github: "https://github.com/ShivanshMehtaa/FitDex",
+  },
+  {
+    id: 14,
+    category: "WEB",
+    image: Image1,
+    title: "GET-A-JOB(NextJS)",
+    description:
+      "A job portal application where the user can search for the job and can also apply for the job, with the UI's for both the job seeker and employer. The application uses React JS in the frontend and Node JS in the backend along with Mongo DB in the backend",
+    demo: "https://github.com/ShivanshMehtaa/JobFindingApp",
+    github: "https://github.com/ShivanshMehtaa/JobFindingApp",
+  },
+  {
+    id: 14,
+    category: "WEB",
+    image: Image1,
+    title: "VideoConferencing App(NextJS)",
+    description:
+      "A video conferencing application that uses ZegoCloud for the  for the video calling and the chat functionality. The application uses Next JS for the frontend and backend",
+    demo: "https://github.com/ShivanshMehtaa/Aora_JSM",
+    github: "https://github.com/ShivanshMehtaa/Aora_JSM",
+  },
     
     
 
